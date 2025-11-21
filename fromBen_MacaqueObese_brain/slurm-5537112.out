@@ -1,0 +1,482 @@
+############### Job 5537112 prolog ###############
+SLURM_NODELIST: hive-dc-7-9-74,hive-dc-7-10-58
+CUDA_VISIBLE_DEVICES: 0
+############### Job 5537112 prolog ###############
+=== Extracting region chr10:2332261-2543263 from all .cov.gz files ===
+Project: /quobyte/lasallegrp/Ensi/project/nhip_macaque/fromBen_MacaqueObese_brain/
+
+Processing directory: 10
+
+Processing directory: 100kbupdown
+
+Processing directory: 1kbupdown
+
+Processing directory: Ensembl_Update
+
+Processing directory: Hippocampus_OvC
+  -> 46505-Hippocampus_ZR3377_8_ZR3377_8_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz (ROI exists, skipping)
+  -> 46658-Hippocampus_ZR3377_23_ZR3377_23_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz (ROI exists, skipping)
+  -> 46668-Hippocampus_ZR3377_26_ZR3377_26_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz (ROI exists, skipping)
+  -> 46671-Hippocampus_ZR3377_29_ZR3377_29_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz (ROI exists, skipping)
+  -> Extracting chr10:2332261-2543263 from 46742-Hippocampus_ZR3377_35_ZR3377_35_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46742-Hippocampus_ZR3377_35_ZR3377_35_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46859-Hippocampus_ZR3377_38_ZR3377_38_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46859-Hippocampus_ZR3377_38_ZR3377_38_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47101-Hippocampus_ZR3377_47_ZR3377_47_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47101-Hippocampus_ZR3377_47_ZR3377_47_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47116-Hippocampus_ZR3377_50_ZR3377_50_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47116-Hippocampus_ZR3377_50_ZR3377_50_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47205-Hippocampus_ZR3377_53_ZR3377_53_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47205-Hippocampus_ZR3377_53_ZR3377_53_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47218-Hippocampus_ZR3377_56_ZR3377_56_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47218-Hippocampus_ZR3377_56_ZR3377_56_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47232-Hippocampus_ZR3377_59_ZR3377_59_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47232-Hippocampus_ZR3377_59_ZR3377_59_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47383-Hippocampus_ZR3377_65_ZR3377_65_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47383-Hippocampus_ZR3377_65_ZR3377_65_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47537-Hippocampus_ZR3377_74_ZR3377_74_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47537-Hippocampus_ZR3377_74_ZR3377_74_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: Hippocampus_PvC
+  -> Extracting chr10:2332261-2543263 from 46395-Hippocampus_ZR3377_5_ZR3377_5_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46395-Hippocampus_ZR3377_5_ZR3377_5_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46634-Hippocampus_ZR3377_14_ZR3377_14_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46634-Hippocampus_ZR3377_14_ZR3377_14_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46652-Hippocampus_ZR3377_20_ZR3377_20_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46652-Hippocampus_ZR3377_20_ZR3377_20_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46658-Hippocampus_ZR3377_23_ZR3377_23_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46658-Hippocampus_ZR3377_23_ZR3377_23_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46668-Hippocampus_ZR3377_26_ZR3377_26_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46668-Hippocampus_ZR3377_26_ZR3377_26_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46742-Hippocampus_ZR3377_35_ZR3377_35_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46742-Hippocampus_ZR3377_35_ZR3377_35_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46905-Hippocampus_ZR3377_41_ZR3377_41_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46905-Hippocampus_ZR3377_41_ZR3377_41_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47101-Hippocampus_ZR3377_47_ZR3377_47_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47101-Hippocampus_ZR3377_47_ZR3377_47_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47205-Hippocampus_ZR3377_53_ZR3377_53_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47205-Hippocampus_ZR3377_53_ZR3377_53_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47232-Hippocampus_ZR3377_59_ZR3377_59_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47232-Hippocampus_ZR3377_59_ZR3377_59_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47378-Hippocampus_ZR3377_62_ZR3377_62_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47378-Hippocampus_ZR3377_62_ZR3377_62_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47426-Hippocampus_ZR3377_68_ZR3377_68_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47426-Hippocampus_ZR3377_68_ZR3377_68_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47521-Hippocampus_ZR3377_71_ZR3377_71_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47521-Hippocampus_ZR3377_71_ZR3377_71_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: Hippocampus_PvO
+  -> Extracting chr10:2332261-2543263 from 46395-Hippocampus_ZR3377_5_ZR3377_5_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46395-Hippocampus_ZR3377_5_ZR3377_5_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46505-Hippocampus_ZR3377_8_ZR3377_8_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46505-Hippocampus_ZR3377_8_ZR3377_8_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46634-Hippocampus_ZR3377_14_ZR3377_14_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46634-Hippocampus_ZR3377_14_ZR3377_14_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46652-Hippocampus_ZR3377_20_ZR3377_20_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46652-Hippocampus_ZR3377_20_ZR3377_20_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46671-Hippocampus_ZR3377_29_ZR3377_29_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46671-Hippocampus_ZR3377_29_ZR3377_29_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46859-Hippocampus_ZR3377_38_ZR3377_38_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46859-Hippocampus_ZR3377_38_ZR3377_38_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46905-Hippocampus_ZR3377_41_ZR3377_41_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46905-Hippocampus_ZR3377_41_ZR3377_41_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47116-Hippocampus_ZR3377_50_ZR3377_50_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47116-Hippocampus_ZR3377_50_ZR3377_50_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47218-Hippocampus_ZR3377_56_ZR3377_56_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47218-Hippocampus_ZR3377_56_ZR3377_56_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47378-Hippocampus_ZR3377_62_ZR3377_62_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47378-Hippocampus_ZR3377_62_ZR3377_62_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47383-Hippocampus_ZR3377_65_ZR3377_65_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47383-Hippocampus_ZR3377_65_ZR3377_65_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47426-Hippocampus_ZR3377_68_ZR3377_68_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47426-Hippocampus_ZR3377_68_ZR3377_68_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47521-Hippocampus_ZR3377_71_ZR3377_71_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47521-Hippocampus_ZR3377_71_ZR3377_71_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47537-Hippocampus_ZR3377_74_ZR3377_74_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47537-Hippocampus_ZR3377_74_ZR3377_74_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: Hippocampus_RvC
+  -> Extracting chr10:2332261-2543263 from 46370-Hippocampus_ZR3377_2_ZR3377_2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46370-Hippocampus_ZR3377_2_ZR3377_2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46509-Hippocampus_ZR3377_11_ZR3377_11_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46509-Hippocampus_ZR3377_11_ZR3377_11_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46641-Hippocampus_ZR3377_17_ZR3377_17_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46641-Hippocampus_ZR3377_17_ZR3377_17_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46658-Hippocampus_ZR3377_23_ZR3377_23_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46658-Hippocampus_ZR3377_23_ZR3377_23_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46668-Hippocampus_ZR3377_26_ZR3377_26_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46668-Hippocampus_ZR3377_26_ZR3377_26_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46696-Hippocampus_ZR3377_32_ZR3377_32_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46696-Hippocampus_ZR3377_32_ZR3377_32_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46742-Hippocampus_ZR3377_35_ZR3377_35_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46742-Hippocampus_ZR3377_35_ZR3377_35_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46958-Hippocampus_ZR3377_44_ZR3377_44_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46958-Hippocampus_ZR3377_44_ZR3377_44_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47101-Hippocampus_ZR3377_47_ZR3377_47_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47101-Hippocampus_ZR3377_47_ZR3377_47_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47205-Hippocampus_ZR3377_53_ZR3377_53_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47205-Hippocampus_ZR3377_53_ZR3377_53_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47232-Hippocampus_ZR3377_59_ZR3377_59_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47232-Hippocampus_ZR3377_59_ZR3377_59_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: Hippocampus_RvO
+  -> Extracting chr10:2332261-2543263 from 46370-Hippocampus_ZR3377_2_ZR3377_2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46370-Hippocampus_ZR3377_2_ZR3377_2_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46505-Hippocampus_ZR3377_8_ZR3377_8_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46505-Hippocampus_ZR3377_8_ZR3377_8_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46509-Hippocampus_ZR3377_11_ZR3377_11_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46509-Hippocampus_ZR3377_11_ZR3377_11_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46641-Hippocampus_ZR3377_17_ZR3377_17_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46641-Hippocampus_ZR3377_17_ZR3377_17_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46671-Hippocampus_ZR3377_29_ZR3377_29_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46671-Hippocampus_ZR3377_29_ZR3377_29_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46696-Hippocampus_ZR3377_32_ZR3377_32_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46696-Hippocampus_ZR3377_32_ZR3377_32_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46859-Hippocampus_ZR3377_38_ZR3377_38_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46859-Hippocampus_ZR3377_38_ZR3377_38_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46958-Hippocampus_ZR3377_44_ZR3377_44_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46958-Hippocampus_ZR3377_44_ZR3377_44_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47116-Hippocampus_ZR3377_50_ZR3377_50_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47116-Hippocampus_ZR3377_50_ZR3377_50_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47218-Hippocampus_ZR3377_56_ZR3377_56_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47218-Hippocampus_ZR3377_56_ZR3377_56_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47383-Hippocampus_ZR3377_65_ZR3377_65_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47383-Hippocampus_ZR3377_65_ZR3377_65_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47537-Hippocampus_ZR3377_74_ZR3377_74_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47537-Hippocampus_ZR3377_74_ZR3377_74_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: Hypothalamus_OvC
+  -> Extracting chr10:2332261-2543263 from 46505-Hypothalamus_ZR3377_7_ZR3377_7_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46505-Hypothalamus_ZR3377_7_ZR3377_7_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46658-Hypothalamus_ZR3377_22_ZR3377_22_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46658-Hypothalamus_ZR3377_22_ZR3377_22_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46668-Hypothalamus_ZR3377_25_ZR3377_25_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46668-Hypothalamus_ZR3377_25_ZR3377_25_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46671-Hypothalamus_ZR3377_28_ZR3377_28_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46671-Hypothalamus_ZR3377_28_ZR3377_28_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46742-Hypothalamus_ZR3377_34_ZR3377_34_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46742-Hypothalamus_ZR3377_34_ZR3377_34_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46859-Hypothalamus_ZR3377_37_ZR3377_37_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46859-Hypothalamus_ZR3377_37_ZR3377_37_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47101-Hypothalamus_ZR3377_46_ZR3377_46_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47101-Hypothalamus_ZR3377_46_ZR3377_46_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47116-Hypothalamus_ZR3377_49_ZR3377_49_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47116-Hypothalamus_ZR3377_49_ZR3377_49_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47205-Hypothalamus_ZR3377_52_ZR3377_52_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47205-Hypothalamus_ZR3377_52_ZR3377_52_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47218-Hypothalamus_ZR3377_55_ZR3377_55_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47218-Hypothalamus_ZR3377_55_ZR3377_55_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47232-Hypothalamus_ZR3377_58_ZR3377_58_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47232-Hypothalamus_ZR3377_58_ZR3377_58_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47383-Hypothalamus_ZR3377_64_ZR3377_64_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47383-Hypothalamus_ZR3377_64_ZR3377_64_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47537-Hypothalamus_ZR3377_73_ZR3377_73_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47537-Hypothalamus_ZR3377_73_ZR3377_73_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: Hypothalamus_PvC
+  -> Extracting chr10:2332261-2543263 from 46395-Hypothalamus_ZR3377_4_ZR3377_4_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46395-Hypothalamus_ZR3377_4_ZR3377_4_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46634-Hypothalamus_ZR3377_13_ZR3377_13_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46634-Hypothalamus_ZR3377_13_ZR3377_13_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46652-Hypothalamus_ZR3377_19_ZR3377_19_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46652-Hypothalamus_ZR3377_19_ZR3377_19_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46658-Hypothalamus_ZR3377_22_ZR3377_22_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46658-Hypothalamus_ZR3377_22_ZR3377_22_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46668-Hypothalamus_ZR3377_25_ZR3377_25_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46668-Hypothalamus_ZR3377_25_ZR3377_25_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46742-Hypothalamus_ZR3377_34_ZR3377_34_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46742-Hypothalamus_ZR3377_34_ZR3377_34_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46905-Hypothalamus_ZR3377_40_ZR3377_40_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46905-Hypothalamus_ZR3377_40_ZR3377_40_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47101-Hypothalamus_ZR3377_46_ZR3377_46_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47101-Hypothalamus_ZR3377_46_ZR3377_46_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47205-Hypothalamus_ZR3377_52_ZR3377_52_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47205-Hypothalamus_ZR3377_52_ZR3377_52_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47232-Hypothalamus_ZR3377_58_ZR3377_58_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47232-Hypothalamus_ZR3377_58_ZR3377_58_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47378-Hypothalamus_ZR3377_61_ZR3377_61_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47378-Hypothalamus_ZR3377_61_ZR3377_61_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47426-Hypothalamus_ZR3377_67_ZR3377_67_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47426-Hypothalamus_ZR3377_67_ZR3377_67_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47521-Hypothalamus_ZR3377_70_ZR3377_70_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47521-Hypothalamus_ZR3377_70_ZR3377_70_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: Hypothalamus_PvO
+  -> Extracting chr10:2332261-2543263 from 46395-Hypothalamus_ZR3377_4_ZR3377_4_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46395-Hypothalamus_ZR3377_4_ZR3377_4_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46505-Hypothalamus_ZR3377_7_ZR3377_7_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46505-Hypothalamus_ZR3377_7_ZR3377_7_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46634-Hypothalamus_ZR3377_13_ZR3377_13_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46634-Hypothalamus_ZR3377_13_ZR3377_13_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46652-Hypothalamus_ZR3377_19_ZR3377_19_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46652-Hypothalamus_ZR3377_19_ZR3377_19_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46671-Hypothalamus_ZR3377_28_ZR3377_28_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46671-Hypothalamus_ZR3377_28_ZR3377_28_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46859-Hypothalamus_ZR3377_37_ZR3377_37_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46859-Hypothalamus_ZR3377_37_ZR3377_37_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46905-Hypothalamus_ZR3377_40_ZR3377_40_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46905-Hypothalamus_ZR3377_40_ZR3377_40_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47116-Hypothalamus_ZR3377_49_ZR3377_49_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47116-Hypothalamus_ZR3377_49_ZR3377_49_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47218-Hypothalamus_ZR3377_55_ZR3377_55_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47218-Hypothalamus_ZR3377_55_ZR3377_55_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47378-Hypothalamus_ZR3377_61_ZR3377_61_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47378-Hypothalamus_ZR3377_61_ZR3377_61_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47383-Hypothalamus_ZR3377_64_ZR3377_64_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47383-Hypothalamus_ZR3377_64_ZR3377_64_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47426-Hypothalamus_ZR3377_67_ZR3377_67_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47426-Hypothalamus_ZR3377_67_ZR3377_67_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47521-Hypothalamus_ZR3377_70_ZR3377_70_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47521-Hypothalamus_ZR3377_70_ZR3377_70_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47537-Hypothalamus_ZR3377_73_ZR3377_73_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47537-Hypothalamus_ZR3377_73_ZR3377_73_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: Hypothalamus_RvC
+  -> Extracting chr10:2332261-2543263 from 46370-Hypothalamus_ZR3377_1_ZR3377_1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46370-Hypothalamus_ZR3377_1_ZR3377_1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46509-Hypothalamus_ZR3377_10_ZR3377_10_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46509-Hypothalamus_ZR3377_10_ZR3377_10_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46641-Hypothalamus_ZR3377_16_ZR3377_16_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46641-Hypothalamus_ZR3377_16_ZR3377_16_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46658-Hypothalamus_ZR3377_22_ZR3377_22_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46658-Hypothalamus_ZR3377_22_ZR3377_22_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46668-Hypothalamus_ZR3377_25_ZR3377_25_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46668-Hypothalamus_ZR3377_25_ZR3377_25_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46696-Hypothalamus_ZR3377_31_ZR3377_31_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46696-Hypothalamus_ZR3377_31_ZR3377_31_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46742-Hypothalamus_ZR3377_34_ZR3377_34_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46742-Hypothalamus_ZR3377_34_ZR3377_34_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46958-Hypothalamus_ZR3377_43_ZR3377_43_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46958-Hypothalamus_ZR3377_43_ZR3377_43_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47101-Hypothalamus_ZR3377_46_ZR3377_46_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47101-Hypothalamus_ZR3377_46_ZR3377_46_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47205-Hypothalamus_ZR3377_52_ZR3377_52_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47205-Hypothalamus_ZR3377_52_ZR3377_52_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47232-Hypothalamus_ZR3377_58_ZR3377_58_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47232-Hypothalamus_ZR3377_58_ZR3377_58_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: Hypothalamus_RvO
+  -> Extracting chr10:2332261-2543263 from 46370-Hypothalamus_ZR3377_1_ZR3377_1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46370-Hypothalamus_ZR3377_1_ZR3377_1_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46505-Hypothalamus_ZR3377_7_ZR3377_7_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46505-Hypothalamus_ZR3377_7_ZR3377_7_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46509-Hypothalamus_ZR3377_10_ZR3377_10_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46509-Hypothalamus_ZR3377_10_ZR3377_10_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46641-Hypothalamus_ZR3377_16_ZR3377_16_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46641-Hypothalamus_ZR3377_16_ZR3377_16_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46671-Hypothalamus_ZR3377_28_ZR3377_28_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46671-Hypothalamus_ZR3377_28_ZR3377_28_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46696-Hypothalamus_ZR3377_31_ZR3377_31_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46696-Hypothalamus_ZR3377_31_ZR3377_31_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46859-Hypothalamus_ZR3377_37_ZR3377_37_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46859-Hypothalamus_ZR3377_37_ZR3377_37_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46958-Hypothalamus_ZR3377_43_ZR3377_43_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46958-Hypothalamus_ZR3377_43_ZR3377_43_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47116-Hypothalamus_ZR3377_49_ZR3377_49_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47116-Hypothalamus_ZR3377_49_ZR3377_49_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47218-Hypothalamus_ZR3377_55_ZR3377_55_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47218-Hypothalamus_ZR3377_55_ZR3377_55_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47383-Hypothalamus_ZR3377_64_ZR3377_64_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47383-Hypothalamus_ZR3377_64_ZR3377_64_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47537-Hypothalamus_ZR3377_73_ZR3377_73_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47537-Hypothalamus_ZR3377_73_ZR3377_73_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: PrefrontalCortex_OvC
+  -> Extracting chr10:2332261-2543263 from 46505-PrefrontalCortex_ZR3377_9_ZR3377_9_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46505-PrefrontalCortex_ZR3377_9_ZR3377_9_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46658-PrefrontalCortex_ZR3377_24_ZR3377_24_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46658-PrefrontalCortex_ZR3377_24_ZR3377_24_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46668-PrefrontalCortex_ZR3377_27_ZR3377_27_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46668-PrefrontalCortex_ZR3377_27_ZR3377_27_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46671-PrefrontalCortex_ZR3377_30_ZR3377_30_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46671-PrefrontalCortex_ZR3377_30_ZR3377_30_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46742-PrefrontalCortex_ZR3377_36_ZR3377_36_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46742-PrefrontalCortex_ZR3377_36_ZR3377_36_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46859-PrefrontalCortex_ZR3377_39_ZR3377_39_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46859-PrefrontalCortex_ZR3377_39_ZR3377_39_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47101-PrefrontalCortex_ZR3377_48_ZR3377_48_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47101-PrefrontalCortex_ZR3377_48_ZR3377_48_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47116-PrefrontalCortex_ZR3377_51_ZR3377_51_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47116-PrefrontalCortex_ZR3377_51_ZR3377_51_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47205-PrefrontalCortex_ZR3377_54_ZR3377_54_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47205-PrefrontalCortex_ZR3377_54_ZR3377_54_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47218-PrefrontalCortex_ZR3377_57_ZR3377_57_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47218-PrefrontalCortex_ZR3377_57_ZR3377_57_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47232-PrefrontalCortex_ZR3377_60_ZR3377_60_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47232-PrefrontalCortex_ZR3377_60_ZR3377_60_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47383-PrefrontalCortex_ZR3377_66_ZR3377_66_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47383-PrefrontalCortex_ZR3377_66_ZR3377_66_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47537-PrefrontalCortex_ZR3377_75_ZR3377_75_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47537-PrefrontalCortex_ZR3377_75_ZR3377_75_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: PrefrontalCortex_PvC
+  -> Extracting chr10:2332261-2543263 from 46395-PrefrontalCortex_ZR3377_6_ZR3377_6_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46395-PrefrontalCortex_ZR3377_6_ZR3377_6_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46634-PrefrontalCortex_ZR3377_15_ZR3377_15_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46634-PrefrontalCortex_ZR3377_15_ZR3377_15_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46652-PrefrontalCortex_ZR3377_21_ZR3377_21_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46652-PrefrontalCortex_ZR3377_21_ZR3377_21_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46658-PrefrontalCortex_ZR3377_24_ZR3377_24_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46658-PrefrontalCortex_ZR3377_24_ZR3377_24_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46668-PrefrontalCortex_ZR3377_27_ZR3377_27_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46668-PrefrontalCortex_ZR3377_27_ZR3377_27_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46742-PrefrontalCortex_ZR3377_36_ZR3377_36_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46742-PrefrontalCortex_ZR3377_36_ZR3377_36_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46905-PrefrontalCortex_ZR3377_42_ZR3377_42_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46905-PrefrontalCortex_ZR3377_42_ZR3377_42_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47101-PrefrontalCortex_ZR3377_48_ZR3377_48_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47101-PrefrontalCortex_ZR3377_48_ZR3377_48_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47205-PrefrontalCortex_ZR3377_54_ZR3377_54_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47205-PrefrontalCortex_ZR3377_54_ZR3377_54_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47232-PrefrontalCortex_ZR3377_60_ZR3377_60_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47232-PrefrontalCortex_ZR3377_60_ZR3377_60_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47378-PrefrontalCortex_ZR3377_63_ZR3377_63_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47378-PrefrontalCortex_ZR3377_63_ZR3377_63_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47426-PrefrontalCortex_ZR3377_69_ZR3377_69_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47426-PrefrontalCortex_ZR3377_69_ZR3377_69_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47521-PrefrontalCortex_ZR3377_72_ZR3377_72_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47521-PrefrontalCortex_ZR3377_72_ZR3377_72_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: PrefrontalCortex_PvO
+  -> Extracting chr10:2332261-2543263 from 46395-PrefrontalCortex_ZR3377_6_ZR3377_6_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46395-PrefrontalCortex_ZR3377_6_ZR3377_6_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46505-PrefrontalCortex_ZR3377_9_ZR3377_9_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46505-PrefrontalCortex_ZR3377_9_ZR3377_9_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46634-PrefrontalCortex_ZR3377_15_ZR3377_15_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46634-PrefrontalCortex_ZR3377_15_ZR3377_15_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46652-PrefrontalCortex_ZR3377_21_ZR3377_21_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46652-PrefrontalCortex_ZR3377_21_ZR3377_21_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46671-PrefrontalCortex_ZR3377_30_ZR3377_30_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46671-PrefrontalCortex_ZR3377_30_ZR3377_30_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46859-PrefrontalCortex_ZR3377_39_ZR3377_39_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46859-PrefrontalCortex_ZR3377_39_ZR3377_39_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46905-PrefrontalCortex_ZR3377_42_ZR3377_42_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46905-PrefrontalCortex_ZR3377_42_ZR3377_42_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47116-PrefrontalCortex_ZR3377_51_ZR3377_51_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47116-PrefrontalCortex_ZR3377_51_ZR3377_51_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47218-PrefrontalCortex_ZR3377_57_ZR3377_57_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47218-PrefrontalCortex_ZR3377_57_ZR3377_57_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47378-PrefrontalCortex_ZR3377_63_ZR3377_63_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47378-PrefrontalCortex_ZR3377_63_ZR3377_63_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47383-PrefrontalCortex_ZR3377_66_ZR3377_66_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47383-PrefrontalCortex_ZR3377_66_ZR3377_66_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47426-PrefrontalCortex_ZR3377_69_ZR3377_69_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47426-PrefrontalCortex_ZR3377_69_ZR3377_69_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47521-PrefrontalCortex_ZR3377_72_ZR3377_72_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47521-PrefrontalCortex_ZR3377_72_ZR3377_72_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47537-PrefrontalCortex_ZR3377_75_ZR3377_75_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47537-PrefrontalCortex_ZR3377_75_ZR3377_75_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: PrefrontalCortex_RvC
+  -> Extracting chr10:2332261-2543263 from 46370-PrefrontalCortex_ZR3377_3_ZR3377_3_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46370-PrefrontalCortex_ZR3377_3_ZR3377_3_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46509-PrefrontalCortex_ZR3377_12_ZR3377_12_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46509-PrefrontalCortex_ZR3377_12_ZR3377_12_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46641-PrefrontalCortex_ZR3377_18_ZR3377_18_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46641-PrefrontalCortex_ZR3377_18_ZR3377_18_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46658-PrefrontalCortex_ZR3377_24_ZR3377_24_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46658-PrefrontalCortex_ZR3377_24_ZR3377_24_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46668-PrefrontalCortex_ZR3377_27_ZR3377_27_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46668-PrefrontalCortex_ZR3377_27_ZR3377_27_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46696-PrefrontalCortex_ZR3377_33_ZR3377_33_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46696-PrefrontalCortex_ZR3377_33_ZR3377_33_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46742-PrefrontalCortex_ZR3377_36_ZR3377_36_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46742-PrefrontalCortex_ZR3377_36_ZR3377_36_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46958-PrefrontalCortex_ZR3377_45_ZR3377_45_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46958-PrefrontalCortex_ZR3377_45_ZR3377_45_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47101-PrefrontalCortex_ZR3377_48_ZR3377_48_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47101-PrefrontalCortex_ZR3377_48_ZR3377_48_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47205-PrefrontalCortex_ZR3377_54_ZR3377_54_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47205-PrefrontalCortex_ZR3377_54_ZR3377_54_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47232-PrefrontalCortex_ZR3377_60_ZR3377_60_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47232-PrefrontalCortex_ZR3377_60_ZR3377_60_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: PrefrontalCortex_RvO
+  -> Extracting chr10:2332261-2543263 from 46370-PrefrontalCortex_ZR3377_3_ZR3377_3_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46370-PrefrontalCortex_ZR3377_3_ZR3377_3_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46505-PrefrontalCortex_ZR3377_9_ZR3377_9_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46505-PrefrontalCortex_ZR3377_9_ZR3377_9_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46509-PrefrontalCortex_ZR3377_12_ZR3377_12_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46509-PrefrontalCortex_ZR3377_12_ZR3377_12_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46641-PrefrontalCortex_ZR3377_18_ZR3377_18_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46641-PrefrontalCortex_ZR3377_18_ZR3377_18_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46671-PrefrontalCortex_ZR3377_30_ZR3377_30_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46671-PrefrontalCortex_ZR3377_30_ZR3377_30_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46696-PrefrontalCortex_ZR3377_33_ZR3377_33_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46696-PrefrontalCortex_ZR3377_33_ZR3377_33_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46859-PrefrontalCortex_ZR3377_39_ZR3377_39_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46859-PrefrontalCortex_ZR3377_39_ZR3377_39_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46958-PrefrontalCortex_ZR3377_45_ZR3377_45_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46958-PrefrontalCortex_ZR3377_45_ZR3377_45_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47116-PrefrontalCortex_ZR3377_51_ZR3377_51_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47116-PrefrontalCortex_ZR3377_51_ZR3377_51_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47218-PrefrontalCortex_ZR3377_57_ZR3377_57_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47218-PrefrontalCortex_ZR3377_57_ZR3377_57_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47383-PrefrontalCortex_ZR3377_66_ZR3377_66_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47383-PrefrontalCortex_ZR3377_66_ZR3377_66_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 47537-PrefrontalCortex_ZR3377_75_ZR3377_75_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 47537-PrefrontalCortex_ZR3377_75_ZR3377_75_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+
+Processing directory: all
+
+Processing directory: cytosine_reports
+
+Processing directory: heatmaps
+
+=== Extraction complete ===
+
+############### Job 5537112 summary from hive-dc-7-9-74 ###############
+Name                : exteract_roi.sh
+User                : ehabibi
+Account             : publicgrp
+Partition           : low
+Nodes               : hive-dc-7-9-74,hive-dc-7-10-58
+Cores               : 8
+GPUs                : 2
+State               : COMPLETED
+ExitCode            : 0:0
+Submit              : 2025-11-12T13:27:05
+Start               : 2025-11-12T13:27:06
+End                 : 2025-11-12T13:53:41
+Reserved walltime   : 1-00:00:00
+Used walltime       :   00:26:35
+Used CPU time       :   00:42:40
+% User (Computation): 94.29%
+% System (I/O)      :  5.71%
+Mem reserved        : 32000M
+Max Mem used        : 15.59G (hive-dc-7-9-74)
+Max Disk Write      : 189.93G (hive-dc-7-9-74)
+Max Disk Read       : 226.17G (hive-dc-7-9-74)
+
+############### Job 5537112 info ###############
+JobId=5537112 JobName=exteract_roi.sh
+   UserId=ehabibi(1244568) GroupId=ehabibi(1244568) MCS_label=N/A
+   Priority=505 Nice=0 Account=publicgrp QOS=publicgrp-low-qos
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:26:35 TimeLimit=1-00:00:00 TimeMin=N/A
+   SubmitTime=2025-11-12T13:27:05 EligibleTime=2025-11-12T13:27:05
+   AccrueTime=2025-11-12T13:27:05
+   StartTime=2025-11-12T13:27:06 EndTime=2025-11-12T13:53:41 Deadline=N/A
+   PreemptEligibleTime=2025-11-12T13:27:06 PreemptTime=None
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-11-12T13:27:06 Scheduler=Main
+   Partition=low AllocNode:Sid=login2:387977
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=hive-dc-7-9-74
+   BatchHost=hive-dc-7-9-74
+   NumNodes=1 NumCPUs=8 NumTasks=2 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=8,mem=32000M,node=1,billing=8,gres/gpu=2
+   AllocTRES=cpu=8,mem=32000M,node=2,billing=8,gres/gpu=2
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryCPU=4000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/quobyte/lasallegrp/Ensi/project/nhip_macaque/fromBen_MacaqueObese_brain/exteract_roi.sh
+   WorkDir=/quobyte/lasallegrp/Ensi/project/nhip_macaque/fromBen_MacaqueObese_brain
+   StdErr=/quobyte/lasallegrp/Ensi/project/nhip_macaque/fromBen_MacaqueObese_brain/slurm-5537112.out
+   StdIn=/dev/null
+   StdOut=/quobyte/lasallegrp/Ensi/project/nhip_macaque/fromBen_MacaqueObese_brain/slurm-5537112.out
+   CpusPerTres=gres/gpu:4
+   TresPerJob=gres/gpu:2
+   
+

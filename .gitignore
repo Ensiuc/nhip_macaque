@@ -1,0 +1,42 @@
+# Byte-compiled / temporary files
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+
+# Jupyter notebooks cache
+.ipynb_checkpoints/
+
+# OS & editor-specific
+.DS_Store
+.vscode/
+.idea/
+.Rproj.user/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Data files
+*.gz
+*.h5
+*.bam
+*.fastq
+*.sam
+*.vcf
+*.json
+*.parquet
+*.html
+*.tbi
+*.hdf
+*.zip
+*.fa
+mm10.fa
+# Secrets / config
+.env
+*.key
+*.pem
+config.yaml
+

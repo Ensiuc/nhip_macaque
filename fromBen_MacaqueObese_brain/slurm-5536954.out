@@ -1,0 +1,75 @@
+############### Job 5536954 prolog ###############
+SLURM_NODELIST: hive-dc-7-10-18
+############### Job 5536954 prolog ###############
+=== Extracting region chr10:2332261-2543263 from all .cov.gz files ===
+Project: /quobyte/lasallegrp/Ensi/project/nhip_macaque/fromBen_MacaqueObese_brain/
+
+Processing directory: 10
+
+Processing directory: 100kbupdown
+
+Processing directory: 1kbupdown
+
+Processing directory: Ensembl_Update
+
+Processing directory: Hippocampus_OvC
+  -> 46505-Hippocampus_ZR3377_8_ZR3377_8_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz (ROI exists, skipping)
+  -> 46658-Hippocampus_ZR3377_23_ZR3377_23_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz (ROI exists, skipping)
+  -> Extracting chr10:2332261-2543263 from 46668-Hippocampus_ZR3377_26_ZR3377_26_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+     ✓ Created 46668-Hippocampus_ZR3377_26_ZR3377_26_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.roi100kb.tsv.gz
+  -> Extracting chr10:2332261-2543263 from 46671-Hippocampus_ZR3377_29_ZR3377_29_1_val_1_bismark_bt2_pe.deduplicated.bismark.cov.gz.CpG_report.merged_CpG_evidence.cov.gz
+[2025-11-12T13:22:35.990] error: *** JOB 5536954 ON hive-dc-7-10-18 CANCELLED AT 2025-11-12T13:22:35 DUE to SIGNAL Terminated ***
+
+############### Job 5536954 summary from hive-dc-7-10-18 ###############
+Name                : exteract_roi.sh
+User                : ehabibi
+Account             : publicgrp
+Partition           : low
+Nodes               : hive-dc-7-10-18
+Cores               : 1
+GPUs                : 0
+State               : CANCELLED by 1244568,CANCELLED
+ExitCode            : 0:0
+Submit              : 2025-11-12T13:22:12
+Start               : 2025-11-12T13:22:13
+End                 : 2025-11-12T13:22:37
+Reserved walltime   : 1-00:00:00
+Used walltime       :   00:00:24
+Used CPU time       :   00:00:21
+% User (Computation): 88.95%
+% System (I/O)      : 11.05%
+Mem reserved        : 4000M
+Max Mem used        : 324.47M (hive-dc-7-10-18)
+Max Disk Write      : 0.00  (hive-dc-7-10-18)
+Max Disk Read       : 0.00  (hive-dc-7-10-18)
+
+############### Job 5536954 info ###############
+JobId=5536954 JobName=exteract_roi.sh
+   UserId=ehabibi(1244568) GroupId=ehabibi(1244568) MCS_label=N/A
+   Priority=505 Nice=0 Account=publicgrp QOS=publicgrp-low-qos
+   JobState=COMPLETING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:15
+   RunTime=00:00:22 TimeLimit=1-00:00:00 TimeMin=N/A
+   SubmitTime=2025-11-12T13:22:12 EligibleTime=2025-11-12T13:22:12
+   AccrueTime=2025-11-12T13:22:12
+   StartTime=2025-11-12T13:22:13 EndTime=2025-11-12T13:22:35 Deadline=N/A
+   PreemptEligibleTime=2025-11-12T13:22:13 PreemptTime=None
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2025-11-12T13:22:13 Scheduler=Main
+   Partition=low AllocNode:Sid=login2:387977
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=hive-dc-7-10-18
+   BatchHost=hive-dc-7-10-18
+   NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=1,mem=4000M,node=1,billing=1
+   AllocTRES=cpu=1,mem=4000M,node=1,billing=1
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryCPU=4000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)
+   Command=/quobyte/lasallegrp/Ensi/project/nhip_macaque/fromBen_MacaqueObese_brain/exteract_roi.sh
+   WorkDir=/quobyte/lasallegrp/Ensi/project/nhip_macaque/fromBen_MacaqueObese_brain
+   StdErr=/quobyte/lasallegrp/Ensi/project/nhip_macaque/fromBen_MacaqueObese_brain/slurm-5536954.out
+   StdIn=/dev/null
+   StdOut=/quobyte/lasallegrp/Ensi/project/nhip_macaque/fromBen_MacaqueObese_brain/slurm-5536954.out
+   
+
